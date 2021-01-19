@@ -4,7 +4,7 @@ import imutils
 import cv2
 
 # initialize the first frame in the video stream
-vs = cv2.VideoCapture("Cafe Bene Intersection 2.mp4")
+vs = cv2.VideoCapture("0")
 
 
 firstFrame = None
