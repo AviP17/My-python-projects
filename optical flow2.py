@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-cap = cv2.VideoCapture("Cafe Bene Intersection 2.mp4") # Reads from webcam is parameter is zero
+cap = cv2.VideoCapture(0) # Reads from webcam is parameter is zero
 
 ret, frame1 = cap.read() # Initializes the first frame of the video
 prvs = cv2.cvtColor(frame1,cv2.COLOR_BGR2GRAY) # Converts the image to grayscale
